@@ -1,149 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
-body {
-    background-color: hsl(217, 54%, 11%);
-    font-family: 'Outfit', sans-serif;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    border: 15px;
-    border-radius: 25px;
-    background-color: hsl(216, 50%, 16%);
-    position: relative;
-    margin: auto;
-    width: fit-content;
-    text-align: start;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.fundo {
-    width: 450px;
-    display: flex;
-    align-self: center;
-    margin-top: 20px;
-    border-radius: 25px;
-    position: relative;
-}
-
-.view {
-    width: 200px;
-    display: flex;
-    align-self: center;
-    opacity: 0%;
-    position: absolute;
-    top: 20%;
-}
-
-.descricao {
-    font-size: 18px;
-    font-weight: 300;
-    color: #7593bd;
-    margin-left: 20px;
-    margin-right: 25px;
-    display: flex;
-}
-
-h1 {
-    font-weight: 600;
-    color: hsl(0, 0%, 100%);
-    margin-left: 20px;
-}
-
-.eth-container {
-    font-size: 18px;
-    font-weight: 300;
-    color: #00fff7;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.eth-container img {
-    margin-left: 25px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-    width: 15px;
-    height: 100%;
-}
-
-.eth {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.time-container {
-    display: flex;
-    color: #7593bd;
-    margin-right: 25px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.time-container img {
-    width: 25px;
-    margin-right: 10px;
-    align-items: center;
-}
-
-hr {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-}
-
-.creation {
-    display: flex;
-    align-items: center;
-    margin-left: 25px;
-    margin-bottom: 25px;
-    justify-content: flex-start;
-}
-
-.creation img {
-    border-radius: 50%;
-    border: 1px solid white;
-    padding: 0;
-    width: 35px;
-    margin-left: 25px;
-}
-
-.creation p {
-    color: #7593bd;
-    margin-left: 10px;
-}
-
-.creation a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-.attribution {
-    background-color: goldenrod;
-    font-size: 12pt;
-}
-
-.view:hover {
-    opacity: 80%;
-    cursor: pointer;
-}
-
-h1:hover {
-    color: #00fff7;
-    cursor: pointer;
-}
-
-a:hover {
-    color: #00fff7;
-    cursor: pointer;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+        body {
+            background-color: hsl(217, 54%, 11%);
+            font-family: 'Outfit', sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            border: 15px;
+            border-radius: 25px;
+            background-color: hsl(216, 50%, 16%);
+            position: relative;
+            margin: auto;
+            width: fit-content;
+            text-align: start;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        
+        .fundo {
+            width: 450px;
+            display: flex;
+            align-self: center;
+            margin-top: 20px;
+            border-radius: 25px;
+            position: relative;
+        }
+        
+        .view {
+            width: 200px;
+            display: flex;
+            align-self: center;
+            opacity: 0%;
+            position: absolute;
+            top: 20%;
+        }
+        
+        .descricao {
+            font-size: 18px;
+            font-weight: 300;
+            color: #7593bd;
+            margin-left: 20px;
+            margin-right: 25px;
+            display: flex;
+        }
+        
+        h1 {
+            font-weight: 600;
+            color: hsl(0, 0%, 100%);
+            margin-left: 20px;
+        }
+        
+        .eth-container {
+            font-size: 18px;
+            font-weight: 300;
+            color: #00fff7;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .eth-container img {
+            margin-left: 25px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            justify-content: center;
+            width: 15px;
+            height: 100%;
+        }
+        
+        .eth {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .time-container {
+            display: flex;
+            color: #7593bd;
+            margin-right: 25px;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .time-container img {
+            width: 25px;
+            margin-right: 10px;
+            align-items: center;
+        }
+        
+        hr {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+        
+        .creation {
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            justify-content: flex-start;
+        }
+        
+        .creation img {
+            border-radius: 50%;
+            border: 1px solid white;
+            padding: 0;
+            width: 35px;
+            margin-left: 25px;
+        }
+        
+        .creation p {
+            color: #7593bd;
+            margin-left: 10px;
+        }
+        
+        .creation a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        
+        .attribution {
+            background-color: goldenrod;
+            font-size: 12pt;
+        }
+        
+        .view:hover {
+            opacity: 80%;
+            cursor: pointer;
+        }
+        
+        h1:hover {
+            color: #00fff7;
+            cursor: pointer;
+        }
+        
+        a:hover {
+            color: #00fff7;
+            cursor: pointer;
+        }
+        
+        @media only screen and (max-width:600px) {
+            body {
+                width: 75%;
+            }
+        }
+        
+        @media only screen and (max-width:600px) {
+            .attribution {
+                width: 100%;
+            }
+        }
