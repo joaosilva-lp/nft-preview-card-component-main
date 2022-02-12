@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 15px;
+    border-radius: 25px;
+    background-color: hsl(216, 50%, 16%);
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 400px;
+    text-align: start;
+}
+
+img {
+    border-radius: 25px;
+    padding: 20px;
+    width: 350px;
+    align-self: center;
+}
+
+.descricao {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7593bd;
+    margin-left: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+}
+
+.eth-container {
+    font-size: 18px;
+    font-weight: 300;
+    color: #00fff7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eth-container img {
+    width: 11px;
+    margin: 0;
+}
+
+.eth {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.time-container {
+    display: flex;
+    color: #7593bd;
+    margin-right: 25px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.time-container img {
+    width: 25px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.creation {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.creation img {
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 0;
+    width: 35px;
+}
+
+.creation p {
+    color: #7593bd;
+    margin-left: 10px;
+}
+
+.creation a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.attribution {
+    background-color: goldenrod;
+    font-size: 12pt;
+}
